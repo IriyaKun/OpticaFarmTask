@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimaFarmTaskCore", "OptimaFarmTaskCore\OptimaFarmTaskCore.csproj", "{1F6EFB57-B37E-48AD-9665-E5FD8F415CD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6EFB57-B37E-48AD-9665-E5FD8F415CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6EFB57-B37E-48AD-9665-E5FD8F415CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6EFB57-B37E-48AD-9665-E5FD8F415CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6EFB57-B37E-48AD-9665-E5FD8F415CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72E696A5-3E96-438F-8632-60151B01A174}
+	EndGlobalSection
+EndGlobal

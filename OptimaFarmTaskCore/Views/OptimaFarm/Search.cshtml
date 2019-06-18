@@ -1,0 +1,32 @@
+﻿@model IEnumerable<OptimaFarmTaskCore.Models.EmployeeModel>
+
+@{
+    ViewBag.Title = "Search Results";
+    Layout = "_Layout";
+}
+
+<h2>Search results:</h2>
+
+@foreach(var employee in Model)
+{
+    <table class="table">
+        <tr>
+            <td>Name</td>
+            <td>Surname</td>
+            <td>Salary</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => employee.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => employee.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => employee.Salary)
+            </td>
+        </tr>
+
+    </table>
+    
+}

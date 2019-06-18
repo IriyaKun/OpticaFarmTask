@@ -1,0 +1,21 @@
+﻿@model EmployeeModel
+
+@{
+    ViewBag.Title = Model.Name + " " + Model.Surname;
+}
+
+<h2>Details</h2>
+
+<div class="model-info">
+    <ul>
+        <li>Name: @Html.DisplayFor(modelItem => modelItem.Name)</li>
+        <li>Surname: @Html.DisplayFor(modelItem => modelItem.Surname)</li>
+        <li>Salary(in USD): @Html.DisplayFor(modelItem => modelItem.Salary)</li>
+    </ul>
+</div>
+
+<a asp-action="Index">Back to Home page</a>
+
+
+
+
